@@ -1,14 +1,20 @@
-# [Bug] on [target] — e.g. SQL injection on Juice Shop login
-**Class:** [SQLi / XSS / IDOR]  ·  **Target:** [local lab]
+# [Bug] on [target] — e.g. SQL injection on PortSwigger lab
+**Class:** [SQLi / XSS / IDOR]  ·  **Target:** [lab name / local lab]  ·  **Date:** [YYYY-MM-DD]
 
 ## The bug
-[what was wrong]
+[What was wrong — one or two lines in my own words.]
 
 ## What I sent
-[the input / request, in my words]
+[The exact input / request / payload I used. Use a code block.]
+```
+[payload here]
+```
 
 ## Why it worked
-[the underlying flaw]
+[The underlying flaw — what the app did wrong with my input.]
 
 ## The fix
-[how a developer should stop it]
+[How a developer should prevent this: parameterised queries, output encoding, access checks, etc.]
+
+## What I learned
+[One line — the idea I'll remember.]
